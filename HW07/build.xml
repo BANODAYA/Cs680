@@ -22,7 +22,7 @@
 		<fileset dir="${env.JUNIT}" includes="org.apiguardian*.jar" />
 		
 	</path>
-	<echo message="${toString:classpath}" />
+	
 	   <target name="init">
 	      <mkdir dir="${bin}" />
 	      <mkdir dir="${test.bin}" />
